@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../HTML LEVEL 1/bootstrap-5.3.2-dist/css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="facebook2.css" media="(max-width:800px)">
+    <link rel="stylesheet" href="facebook.css">
+</head>
+
+<body>
+    <section id="section1" class="d-flex">
+        <div id="div1" style="width: 55%;">
+            <h2 style="padding-top: 160px;padding-left: 340px;"><img
+                    style="height: 130px;width: 300px; padding-top: 40px;"
+                    src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt=""></h2>
+            <h3 style="font-size: 26px;font-weight: 400;padding-left: 380px;">Facebook helps you connect and share with
+                the people in your life.</h3>
+
+        </div>
+        <div id="div2" class="d-flex flex-column justify-content-center" style="width: 45%;">
+            <div id="div3" style="background-color: #FFFFFF; border-radius: 10px; width: 55%;height: 50%;" >
+                <input class="bg bg-body-light mx-2 rounded-1 border border-2 px-2" placeholder="Email address or Phone number" type="name"
+                    style="width: 95%;height: 50px;margin-top: 20px;">
+                <input class="bg bg-body-light mx-2 rounded-1 border border-2 px-2" placeholder="Password" type="password"
+                    style="width: 95%;height: 50px;margin-top: 20px;">
+                <button class="fw-bold mx-2 rounded-2 px-2"
+                    style="height: 50px;width: 95%; border: none;  background-color: #0866FF; color: white;margin-top: 20px;margin-left: 10px;margin-bottom: 15px;">Log
+                    in</button>
+                <a href="" style="padding-left: 120px;">Forgotten password?</a>
+                <hr class="w-100">
+                <!-- Button trigger modal -->
+                <button type="button"
+                    style="background-color: #00A400;color: white;width: 180px;height: 50px;border: none;margin-left: 120px;"
+                    class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop ">
+                    Create new account
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="d-flex flex-column">
+                                    <h1 class="modal-title fs-7 fw-bold" id="staticBackdropLabel">Sign Up</h1>
+                                    <h6 class="fs-6 text-secondary">It's quick and easy.</h6>
+                                </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <span><input class="bg bg-body-secondary mx-1 rounded-1 border border-2 px-2"
+                                        placeholder="First name" type="name" style="width: 48%;height: 50px;"
+                                        required><input class="bg bg-body-secondary mx-1 rounded-1 border border-2 px-2"
+                                        placeholder="Last name" type="name" style="width: 48%;height: 50px;"
+                                        required></span>
+                                <input class="bg bg-body-secondary mx-1 rounded-1 border border-2 px-2 my-2"
+                                    placeholder="Mobile number or email address" type="text" name="number and email"
+                                    id="" style="height: 50px;width: 98%;" required>
+                                <input class="bg bg-body-secondary mx-1 rounded-1 border border-2 px-2 my-2"
+                                    placeholder="New password" type="password" style="width:98%;height: 50px;" required>
+                                <h6 class="fs-6 text-secondary px-2">Date of birth <i
+                                        class="fa-solid fa-circle-question"></i></h6>
+                                <span>
+                                    <select class="bg bg-body-light rounded-1 border border-2 mx-2 px-2" name="date"
+                                        style="width: 32%;height: 50px;">
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="27">28</option>
+                                        <option value="28">29</option>
+                                        <option value="29">30</option>
+                                        <option value="30">31</option>
+
+                                    </select>
+                                    <select class="bg bg-body-light rounded-1 border border-2 px-2" name="month"
+                                        style="width: 30%;height: 50px;">
+                                        <option value="jan">jan</option>
+                                        <option value="feb">feb</option>
+                                        <option value="mar">mar</option>
+                                        <option value="apr">apr</option>
+                                        <option value="may">may</option>
+                                        <option value="jun">jun</option>
+                                        <option value="jul">jul</option>
+                                        <option value="aug">aug</option>
+                                        <option value="sep">sep</option>
+                                        <option value="oct">oct</option>
+                                        <option value="nov">nov</option>
+                                        <option value="dec">dec</option>
+                                    </select>
+                                    <select class="bg bg-body-light rounded-1 border border-2 mx-1 px-2" name="year"
+                                        style="width: 30%;height: 50px;">
+                                        <option value="2005">2005</option>
+                                        <option value="2004">2004</option>
+                                        <option value="2003">2003</option>
+                                        <option value="2002">2002</option>
+                                        <option value="2001">2001</option>
+                                        <option value="2000">2000</option>
+                                        <option value="1999">1999</option>
+                                        <option value="1998">1998</option>
+                                        <option value="1997">1997</option>
+                                        <option value="1996">1996</option>
+                                        <option value="1995">1995</option>
+                                        <option value="1994">1994</option>
+                                    </select>
+                                </span>
+                                <h6 class="fs-6 text-secondary px-2"> Gender <i class="fa-solid fa-circle-question"></i>
+                                </h6>
+                                <div class="d-flex flex-row w-100 align-items-center justify-content-around">
+                                    <div class="mx-2  rounded-2 d-flex align-items-center justify-content-around border border-1 fw-semibold"
+                                        style="height: 50px;width: 33%;">Female <input name="gender" type="radio"></div>
+                                    <div class="mx-2  rounded-2 d-flex align-items-center justify-content-around border border-1 fw-semibold"
+                                        style="height: 50px;width: 33%;">Male <input name="gender" type="radio"></div>
+                                    <div class="mx-2 rounded-2 d-flex align-items-center justify-content-around border border-1 fw-semibold"
+                                        style="height: 50px;width: 34%;">Custom <input name="gender" type="radio"></div>
+                                </div>
+                                <p class=" text-secondary py-2 px-2" style="font-size: 12px;">People who use our service
+                                    may have uploaded your contact information to Facebook. <a href=""> Learn more.</a>
+                                </p>
+                                <p class="text-secondary px-2" style="font-size: 12px;">
+                                    By clicking Sign Up, you agree to our <a href=""> Terms</a>,<a href=""> Privacy
+                                        Policy</a> and <a href=""> Cookies Policy </a>. You may receive SMS
+                                    notifications from us and can opt out at any time.
+                                </p>
+                                <button
+                                    style="width: 200px;height: 35px; border: none;font-weight: bold; border-radius: 5px; background-color: #00A400;color: white;margin-left: 130px;">Sign
+                                    Up</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        
+
+            </div>
+            <div class="my-4 px-5" id="div4"><b> Create a Page </b> for a celebrity, brand or business.</div>
+
+        </div>
+
+    </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/16b285b393.js" crossorigin="anonymous"></script>
+
+</html>

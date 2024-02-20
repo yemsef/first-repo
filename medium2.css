@@ -1,0 +1,238 @@
+#div2{
+    display: none;
+}
+#div002{
+    display: flex;
+}
+nav{
+    position: fixed;
+}
+#section1{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFC017;
+    border-bottom: 1px solid black;
+}
+#div3>h1{
+    padding-top: 100px;
+    padding-left: 30px;
+    font-size: 95px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+}
+h3{
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+    padding-bottom: 30px;
+}
+#button2{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    font-size: 18px;
+}
+#section2{
+    width: 100vw;
+    height: 100%;
+    display: block;
+    background-color: white;
+
+}
+#p3{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#button001{
+    border-radius: 100%;
+    border: 1px solid black;
+}
+#div5,#div6,#div7,#div8,#div9,#div10{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+}
+
+#p4{
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+#p5{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+#p6{
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding-left: 30px;
+    color: rgb(98, 97, 97);
+}
+#p7{
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 65px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+#p8{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-bottom: 35px;
+}
+#p9{
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding-left: 30px;
+    color: rgb(98, 97, 97);
+}
+#p10{
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 65px;
+    padding-left: 30px;
+}
+#p11{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+#p12{
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding-left: 30px;
+    color: rgb(98, 97, 97);
+}
+article {
+    width: 100vw;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+.twintower {
+    width:100%;
+    height: inherit;
+    background-color: #fff;
+    border-top: 1px solid #000;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin:30px auto;
+
+}
+.left {
+    width: 100%;
+    height: inherit;
+    background-color: #fff;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.contact {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 30px;
+}
+.right {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position:static;
+}
+.disco {
+    padding: 20px 5px;  
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.green {
+    color: green;
+    display: block;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.anchorly, .anch {
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+    /* margin-left: 20px; */
+    display: none;
+}
+.wording {
+    width: 65%;
+    height: 200px;
+    margin-top: 20px;
+
+}
+.imago {
+    width: 200px;
+    height: 140px;
+    margin-top: 50px;
+}
+.imago img {
+    width: 100%;
+    height: inherit;
+}
+.jabber {
+    padding-left: 20px;
+    padding-top: 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.andre {
+    padding: 10px 20px;
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: sans-serif ;
+}
+.little {
+    color: rgba(0,0,0,0.6);
+    padding: 20px;
+
+}
+.small {
+    padding: 10px 15px;
+}
+.anchorly{
+    border-top: 1px solid rgb(240, 238, 238);
+    width: 300px;
+    padding-top: 30px;
+}
+.anch{
+    width: 200px;
+}
+.oval{
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgba(0,0,0,0.6);
+    padding-bottom: 10px;
+}

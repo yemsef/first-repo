@@ -1,0 +1,16 @@
+    
+    /* @media (max-width:700px) { */
+        nav{
+            background-color: green;
+        }
+        #divOne, #divTwo, #divThree{
+            display: none;
+        }
+        #divFour{
+            display: inherit;
+            width: 100%;
+            height: inherit;
+            align-items: center;
+            justify-content: space-around;
+        }
+    /* } */

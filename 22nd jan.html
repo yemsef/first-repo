@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    span{
+        display: block;
+    }
+    #navone{
+        display: flex;
+        height: 60px;
+        border: 1px solid black;
+        background-color: aqua;
+    }
+    #divone,#divtwo,#divthree{
+        height: inherit;
+        width: 100vw;
+    }
+    #divone{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #divtwo{
+        width: 60%;
+    }
+    #divthree{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    #divtwo > ul {
+        list-style: none;
+        width: 100%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #buttonone, #buttontwo{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+    #buttonone{
+        background-color: cadetblue;
+    }
+    #buttontwo{
+        background-color: greenyellow;
+    }
+    #sectionone > div{
+        width: 200px;
+        height: 200px;
+        background-color: beige;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    #sectionone{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+</style>
+<body>
+    <nav id="navone">
+        <div id="divone">
+            <h1>TEST CLASS</h1>
+        </div>
+        <div id="divtwo">
+            <Ul>
+                <LI>HOME</LI>
+                <LI>SERVICE</LI>
+                <LI>ABOUT US</LI>
+                <LI>CONTACT US</LI>
+                <LI>BOOK A DEMO</LI>
+                <LI>REPORT A PROBLEM</LI>
+            </Ul>
+        </div>
+        <div id="divthree">
+            <button id="buttonone"> SIGN UP</button>
+            <button id="buttontwo"> LOG IN</button>
+        </div>
+
+    </nav>
+    <SEction id="sectionone">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </SEction>
+    
+</body>
+</html>

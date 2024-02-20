@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navone {
+    display: flex;
+    height: 70px;
+    width: 100vw;
+
+}
+
+#divone,
+#divtwo,
+#divthree {
+    height: inherit;
+    width: 100vw;
+}
+
+#divone {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divtwo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#divthree {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#buttonone {
+    color: rgb(13, 107, 183);
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 95px;
+    border: 1px solid rgb(13, 107, 183);
+    margin-left: 80px;
+
+}
+
+#buttontwo {
+    color: white;
+    background-color: rgb(13, 107, 183);
+    border-radius: 20px;
+    height: 40px;
+    width: 95px;
+    border: 1px solid rgb(13, 107, 183);
+    margin-right: 280px;
+}
+
+#sectionone {
+    background-image: url(https://www.paypalobjects.com/webstatic/en_GB/mktg/wright/home/homepage-hero-1x.jpg);
+    width: 100vw;
+    height: 550px;
+    background-size: cover;
+    color: white;
+}
+
+h2 {
+    font-size: 60px;
+    padding-top: 250px;
+    font-weight: 50;
+}
+
+h3 {
+    font-weight: 50;
+}
+
+#buttonthree {
+    width: 360px;
+    height: 50px;
+    color: white;
+    background-color: rgb(13, 107, 183);
+    border-radius: 35px;
+    border: 1px solid rgb(13, 107, 183);
+    font-weight: bold;
+}
+
+#sectiontwo {
+    background-color: white;
+    width: 100vw;
+    height: 550px;
+    color: rgb(40, 27, 27);
+}
+
+#p3 {
+    font-size: 45px;
+    padding-top: 70px;
+    color: rgb(75, 73, 73);
+    padding-bottom: 30px;
+}
+
+#p5 {
+    font-size: 30px;
+    color: rgb(75, 73, 73);
+}
+
+#buttonfour {
+    width: 200px;
+    height: 50px;
+    color: rgb(13, 107, 183);
+    background-color: white;
+    border-radius: 35px;
+    border: 1px solid rgb(13, 107, 183);
+    font-weight: bold;
+
+}
+
+#sectionthree {
+    background-color: rgb(247, 249, 250);
+    width: 100vw;
+    height: 550px;
+    color: rgb(40, 27, 27);
+    padding-top: 95px;
+
+}
+
+#S1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#S2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#buttonfive {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(40, 27, 27);
+    border-radius: 100%;
+}
+
+#buttonsix {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(40, 27, 27);
+    border-radius: 100%;
+}
+
+#buttonseven {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(40, 27, 27);
+    border-radius: 100%;
+    margin-left: 150px;
+
+}
+
+#p8 {
+    font-size: 45px;
+    color: rgb(75, 73, 73);
+    font-family: sans-serif;
+}
+
+#buttoneight {
+    width: 200px;
+    height: 50px;
+    color: rgb(13, 107, 183);
+    background-color: white;
+    border-radius: 35px;
+    border: 1px solid rgb(13, 107, 183);
+    font-weight: bold;
+}
+
+#sectionfour {
+    background-color: rgb(20, 47, 135);
+    width: 100vw;
+    height: 350px;
+    color: white;
+    padding-top: 95px;
+}
+
+#p9 {
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+#S3 {
+    width: 50%;
+    height: 200px;
+    text-align: start;
+    padding-left: 320px;
+}
+
+#S4 {
+    width: 50%;
+    height: 200px;
+    text-align: start;
+    padding-right: 350px;
+}
+
+#twindiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#p10 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#p13 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#buttonnine {
+    width: 360px;
+    height: 50px;
+    color: white;
+    background-color: rgb(13, 107, 183);
+    border-radius: 35px;
+    border: 1px solid rgb(13, 107, 183);
+    font-weight: bold;
+}
+
+#p14 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#sectionfive {
+    background-color: rgb(247, 249, 250);
+    width: 100vw;
+    height: 250px;
+    color: rgb(40, 27, 27);
+    padding-top: 95px;
+
+}
+
+#footerone>ul {
+    display: flex;
+    list-style: none;
+    align-items: end;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+#footerzero {
+    width: 1200px;
+    height: 105px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+    display: flex;
+}
+
+#footerone {
+    width: 30%;
+    height: inherit;
+
+
+}
+
+#footertwo {
+    width: 70%;
+    height: inherit;
+    display: flex;
+    justify-content: end;
+    padding-top: 70px;
+}
+
+#footerthree {
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+}
+
+#footerfour>ul {
+    display: flex;
+    list-style: none;
+    align-items: start;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#footerfive>ul {
+    display: flex;
+    list-style: none;
+    align-items: end;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+#footerfour {
+    width: 30%;
+    height: inherit;
+    padding-top: 15px;
+}
+
+#footerfive {
+    width: 70%;
+    height: inherit;
+    justify-content: space-around;
+    text-align: end;
+    padding-top: 15px;
+    padding-left: 330px;
+}
+
+#lastdiv {
+    width: 1200px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.45);
+    font-weight: lighter;
+    text-align: left;
+    font-size: 11.375px;
+}

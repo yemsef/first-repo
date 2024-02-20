@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+#btn2:hover{
+    background-color: transparent;
+    color: blue;
+    border: none;
+}
+#section1{
+    height: 900px;
+    border: 1px solid black;
+    background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-homev2-banner.webp);
+    background-size: 70% 30%;
+    background-repeat: no-repeat;
+    background-position: bottom 30% left 5%;
+}
+#div1{
+    padding-left: 10%;
+    padding-right: 7%;
+    padding-top: 5%;
+}
+#div1>h1{
+    font-family: sans-serif;
+    font-size: 55px;
+}

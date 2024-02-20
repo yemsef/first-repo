@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <style>
+        #section1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #testdiv {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            transition: transform ease 3s;
+        }
+
+        #testdiv:hover {
+            transform: rotate(45deg);
+        }
+
+        #testdiv2 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            transition: transform ease 3s;
+        }
+
+        #testdiv2:hover {
+            transform: translate(100px, 200px);
+        }
+
+        #testdiv3 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            transition: transform ease 3s;
+        }
+
+        #testdiv3:hover {
+            transform: scale(2,3);
+        }
+
+        #testdiv4 {
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            transition: transform ease 7s;
+        }
+
+        #testdiv4:hover {
+            transform: skewX(-180deg);
+        }
+        #divone{
+            width: 200px;
+            height: 200px;
+            background-color: goldenrod;
+            border-radius: 10px;
+            position: absolute;
+            animation-name: ayo;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+        }
+        @keyframes ayo{
+            0%{
+                top: 0;
+                left: 0;
+            }
+            25%{
+                top: 0;
+                left: 1500px;
+                background-color: red;
+                border-radius: 100%;
+            }
+            50%{
+                top: 620px;
+                left: 1500px;
+                background-color: indianred;
+                border-radius: 30px;
+            }
+            75%{
+                top: 620px;
+                left: 0;
+                background-color: cadetblue;
+                border-radius: 20px;
+
+            }
+            100%{
+                top: 0;
+                left: 0;
+            }
+        }
+        .animate__bounce{
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+            border-radius: 10px;
+            margin-left: 100px;
+            animation-iteration-count: infinite;
+            animation-duration:5s;
+        }
+    </style>
+   <sectionn id="section1"> <div id="testdiv"></div>
+    <div id="testdiv2"></div>
+    <div id="testdiv3"></div>
+    <div id="testdiv4"></div>
+</section>
+<div class="animate__bounce"></div>
+<div id="divone"></div>
+
+</body>
+
+</html>

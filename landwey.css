@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#general {
+    background-image: linear-gradient(to right, #f3f3f3, #f2e5cf, #d2e4e0, #d1ebf1);
+    width: 100vw;
+    height: 900px;
+}
+
+
+
+#section1 {
+    width: 100vw;
+    height: 95px;
+    background-color: transparent;
+    display: flex;
+    position: fixed;
+    top: 10px;
+}
+
+#div1 {
+    width: 40%;
+    height: inherit;
+    padding-left: 200px;
+
+}
+
+#div2 {
+    width: 20%;
+    height: 95px;
+}
+
+#div3 {
+    width: 40%;
+    height: 95px;
+}
+
+#div3>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    color: white;
+    padding-right: 200px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#section2 {
+    display: flex;
+    width: 100vw;
+    height: 600px;
+    margin-top: 50px;
+}
+
+#div4 {
+    width: 30%;
+    height: 600px;
+    margin-left: 60px;
+    color: black;
+    background-color: transparent;
+    font-family: sans-serif;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+#div5 {
+    width: 30%;
+    height: 600px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    background-image: url(https://guardian.ng/wp-content/uploads/2022/10/Isimi-Lagos-1424x802.jpg);
+    background-size: 100 100;
+
+}
+
+#div6 {
+    width: 30%;
+    height: 600px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    background-size: 100 100;
+    background-image: url(https://images.privateproperty.com.ng/large/spacious-and-elegant-4-bedroom-terraced-house-with-staff-room-19Ma7FCEmRhibwAxzhW5.jpg);
+
+}
+
+#div4>h1 {
+    font-size: 45px;
+    font-weight: 400px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+
+#div4>h4 {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: rgb(66, 63, 63);
+    padding-bottom: 20px;
+}
+
+#button1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 45px;
+    border: 1px solid black;
+    font-size: 16px;
+
+}
+
+#div7 {
+    width: 100vw;
+    height: 100px;
+    margin-top: 30px;
+}
+
+#p1 {
+    padding-left: 1450px;
+}
+
+#footer {
+    width: 100vw;
+    height: 300px;
+
+}
+
+#lastdiv {
+    background-color: white;
+    color: gray;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    width: inherit;
+    height: inherit;
+    padding-left: 700px;
+    padding-top: 30px;
+}
+
+#lastbutton {
+    padding-left: 3%;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 45px;
+    border: 1px solid black;
+    font-size: 14px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#button1:hover {
+    background-color: white;
+    color: rgb(250, 146, 108);
+}

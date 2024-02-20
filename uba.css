@@ -1,0 +1,852 @@
+#navone {
+    width: 100%;
+    height: 85px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#div1,
+#div3 {
+    width: 20%;
+    height: inherit;
+    color: rgb(90, 86, 86);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+#div2 {
+    width: 60%;
+    height: inherit;
+    color: rgb(90, 86, 86);
+
+}
+
+
+#homebutton {
+    width: 200px;
+    height: 45px;
+    background-color: rgb(205, 19, 7);
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 10px;
+}
+
+#div2>ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 100%;
+    font-size: 12px;
+}
+
+#div3 {
+    padding-right: 40px;
+    justify-content: space-around;
+
+}
+
+#section1 {
+    width: 100vw;
+    height: 500px;
+    background-image: url(./uba\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    top: 0;
+
+}
+
+h1 {
+    padding-top: 70px;
+    font-size: 60px;
+    margin-left: 200px;
+    font-family: sans-serif;
+}
+
+h3 {
+    margin-left: 200px;
+    font-family: sans-serif;
+}
+
+#button1 {
+    width: 150px;
+    height: 45px;
+    background-color: rgb(205, 19, 7);
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 20px;
+    margin-left: 200px;
+}
+
+#s1 {
+    display: flex;
+    width: 100vw;
+    height: 150px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+#sd1 {
+    display: flex;
+    width: 400px;
+    height: 130px;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    position: absolute;
+    top: 430px;
+    background-color: whitesmoke;
+}
+
+#sd2 {
+    display: flex;
+    width: 400px;
+    height: 130px;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    position: absolute;
+    top: 430px;
+    right: 640px;
+    background-color: whitesmoke;
+}
+
+#sd3 {
+    display: flex;
+    width: 400px;
+    height: 130px;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 200px;
+    position: absolute;
+    top: 430px;
+    right: 10px;
+    background-color: whitesmoke;
+
+}
+
+#section2 {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+}
+
+
+#divone {
+    display: block;
+    width: 45%;
+    height: inherit;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+#divtwo {
+    width: 55%;
+    height: inherit;
+    padding-top: 40px;
+}
+
+#p2 {
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(90, 86, 86);
+}
+
+#p3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+#selectone {
+    width: 450px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+#button2 {
+    width: 450px;
+    height: 40px;
+    border: 1px solid rgb(205, 19, 7);
+    border-radius: 2px;
+    background-color: rgb(205, 19, 7);
+    color: white;
+    font-family: sans-serif;
+}
+
+#section3 {
+    width: 100vw;
+    height: 550px;
+    background-image: url(https://www.ubagroup.com/wp-content/uploads/2023/02/world-map.png);
+    background-color: rgba(34, 34, 34, 1);
+    background-size: cover;
+}
+
+#p6 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 200px;
+    padding-top: 80px;
+}
+
+#p7 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 200px;
+}
+
+#divfour {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 200px;
+}
+
+#divfive {
+    padding-left: 200px;
+}
+
+#button3 {
+    width: 150px;
+    height: 40px;
+    border: white solid 1px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    margin-right: 20px;
+}
+
+#button4 {
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(205, 19, 7);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(205, 19, 7);
+}
+
+#section4 {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+}
+
+#divsix {
+    width: 400px;
+    height: 500px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 230px;
+    background-color: rgb(241, 243, 244);
+}
+
+#divseven {
+    width: 400px;
+    height: 500px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: rgb(241, 243, 244);
+}
+
+#diveight {
+    width: 400px;
+    height: 500px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: rgb(241, 243, 244);
+}
+
+#P8 {
+    font-size: 13px;
+    color: rgb(106, 103, 103);
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+#P9 {
+    font-size: 22px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: rgb(63, 62, 62);
+    font-weight: lighter;
+
+}
+
+#p10 {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(205, 19, 7);
+    padding-left: 10px;
+    padding-top: 40px;
+    font-weight: lighter;
+}
+
+#p11 {
+    font-size: 13px;
+    color: rgb(106, 103, 103);
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+#P12 {
+    font-size: 22px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: rgb(63, 62, 62);
+    font-weight: lighter;
+}
+
+#p13 {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(205, 19, 7);
+    padding-left: 10px;
+    padding-top: 40px;
+    font-weight: lighter;
+}
+
+#p14 {
+    font-size: 13px;
+    color: rgb(106, 103, 103);
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+#p15 {
+    font-size: 22px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 70px;
+    color: rgb(63, 62, 62);
+    font-weight: lighter;
+}
+
+#p16 {
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: grey;
+    font-weight: lighter;
+}
+
+#p17 {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(205, 19, 7);
+    padding-left: 10px;
+    padding-top: 70px;
+    font-weight: lighter;
+}
+
+#section5 {
+    width: 100vw;
+    height: 300px;
+    background-image: linear-gradient(to right, rgb(63, 9, 5), black);
+    display: flex;
+}
+
+#divnine {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    width: 47%;
+    display: flex;
+    font-weight: bold;
+}
+
+#divten {
+    display: block;
+    margin-top: 75px;
+    margin-left: 300px;
+}
+
+#button5 {
+    width: 230px;
+    height: 40px;
+    color: white;
+    border: 1px solid red;
+    background-color: rgb(205, 19, 7);
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+#button6 {
+    width: 230px;
+    height: 40px;
+    color: rgb(205, 19, 7);
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+#P19 {
+    color: gray;
+    font-family: sans-serif;
+    margin-left: 100px;
+}
+
+#section6 {
+    width: 100vw;
+    height: 880px;
+    display: flex;
+}
+
+#diveleven {
+    padding-left: 50px;
+    background-size: contain;
+    background-repeat: round;
+    width: 600px;
+    height: 700px;
+    margin-top: 80px;
+    margin-left: 240px;
+    background-image: url(https://www.ubagroup.com/wp-content/uploads/2019/02/uba-careers-article-8.jpg)
+}
+
+#divtwelve {
+    width: 600px;
+    height: 700px;
+    border: 2px solid rgb(241, 243, 244);
+    margin-top: 80px;
+    border-radius: 10px;
+    margin-left: 40px;
+    background-color: rgb(241, 243, 244);
+
+}
+
+#p21 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 200px;
+}
+
+#p22 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 30px;
+
+}
+
+#p23 {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-top: 30px;
+
+}
+
+#button7 {
+    width: 150px;
+    height: 45px;
+    background-color: rgb(205, 19, 7);
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 20px;
+    margin-top: 30px;
+}
+
+#p25 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(81, 77, 77);
+    font-family: sans-serif;
+}
+
+#p26 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+#p27 {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+#p28 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 60px;
+    font-family: sans-serif;
+    color: gray;
+    padding-top: 30px;
+}
+
+#section7 {
+    width: 100vw;
+    height: 800px;
+    background-color: rgb(241, 243, 244);
+    display: flex;
+}
+
+#divthirteen {
+    width: 550px;
+    height: 650px;
+    border: 3px solid rgb(236, 232, 232);
+    margin-left: 250px;
+    margin-top: 75px;
+    border-radius: 10px;
+    background-color: rgb(236, 232, 232);
+}
+
+#divfourteen {
+    width: 550px;
+    height: 650px;
+    border: 3px solid rgb(205, 19, 7);
+    margin-left: 50px;
+    margin-top: 75px;
+    border-radius: 10px;
+    background-color: rgb(205, 19, 7);
+}
+
+#p37 {
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 20px;
+    color: rgb(107, 103, 103);
+}
+
+#p38 {
+    padding-top: 30px;
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding-left: 20px;
+    color: rgb(153, 149, 149)
+}
+
+#button9 {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(205, 19, 7);
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#p29 {
+    padding-top: 50px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 20px;
+    color: white;
+}
+
+#p30 {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding-left: 20px;
+    color: white;
+}
+
+#p31>input {
+    width: 500px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+
+#p32>input {
+    width: 240px;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#p32 {
+    padding-left: 20px;
+}
+
+#p33>select {
+    width: 510px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#p34>input {
+    width: 500px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#p35 {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 21px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#button8 {
+    width: 515px;
+    height: 40px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(205, 19, 7), rgb(116, 11, 11));
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+#section8 {
+    width: 100vw;
+    height: 200px;
+    background-color: white;
+}
+
+#divfifteen {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+#p41 {
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+#p43 {
+    font-size: 18px;
+    color: gray;
+    padding-top: 10px;
+}
+
+#section9 {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    font-size: 27px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#divsixteen {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 34, 34, 0.5);
+
+}
+
+#divseventeen {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 34, 34, 0.5);
+}
+
+#diveighteen {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 34, 34, 0.5);
+}
+
+#md0 {
+    background-image: url(https://www.ubagroup.com/nigeria/wp-content/uploads/sites/3/2019/02/United-Bank-For-Africa-Leadership.jpg);
+    width: 33%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+#md1 {
+    width: 34%;
+    margin-left: 1px;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url(https://www.morganstanley.com/content/dam/msdotcom/what-we-do/wealth-management/awards-2021/ms-com-awards-homepage-hero.jpg/_jcr_content/renditions/extrawide_3x1.jpg);
+}
+
+#md2 {
+    width: 33%;
+    height: 100%;
+    margin-left: 1px;
+    background-size: 100% 100%;
+    background-image: url(https://www.bellanaija.com/wp-content/uploads/2019/01/Lagos.jpeg);
+}
+
+#section10 {
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 50px;
+
+}
+
+#part1>ul {
+    list-style: none;
+    color: gray;
+}
+
+#part2>ul {
+    list-style: none;
+    color: gray;
+}
+
+#part3>ul {
+    list-style: none;
+    color: gray;
+}
+
+#part4>ul {
+    list-style: none;
+    color: gray;
+}
+
+#firsthead,
+#secondhead,
+#thirdhead,
+#fourthhead,
+#p44 {
+    color: black;
+    font-size: 20px;
+}
+
+#button9,
+#button10,
+#button11,
+#button12,
+#button13 {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: rgb(184, 178, 178);
+    border: 1px solid black;
+    margin: 4px;
+}
+
+#part5 {
+    margin-right: 150px;
+}
+
+#language {
+    width: 180px;
+    height: 45px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    font-family: sans-serif;
+}
+
+#lastsection {
+    width: 100vw;
+    height: 150px;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: gray;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#divtwenty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lastbutton {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 30%;
+    border: 1px solid red;
+    padding-top: 30px;
+    padding-left: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+}
