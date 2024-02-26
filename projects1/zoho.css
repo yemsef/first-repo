@@ -28,6 +28,7 @@
     padding-left: 10%;
     padding-right: 7%;
     padding-top: 5%;
+    border: 1px solid black;
 }
 #div1>h1{
     font-family: sans-serif;
